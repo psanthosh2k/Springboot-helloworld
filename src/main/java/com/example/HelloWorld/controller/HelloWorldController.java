@@ -5,6 +5,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloWorldController {
 	@RequestMapping("/")
 	public String printHelloWorld() {
-		return "Greetings from Spring Boot!";
+		return "Greetings from Bookzy!";
 	}
 }
